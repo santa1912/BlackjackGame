@@ -164,7 +164,7 @@ export default function App() {
         </div>
       </div>
       <button 
-        onClick={() => setGameState("Start")} 
+        onClick={() => setGameState("start")} 
         className="mt-8 w-full bg-yellow-500 text-black font-black py-3 rounded-2xl shadow-[0_4px_0_rgb(161,98,7)] hover:shadow-none hover:translate-y-1 transition-all"
       >
         I'M READY
