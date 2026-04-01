@@ -144,23 +144,27 @@ export default function App() {
       <div className="space-y-4 text-sm md:text-base opacity-95 font-medium">
         <div className="flex gap-3 items-start">
           <span className="bg-yellow-500 text-black rounded-full px-2 py-0.5 text-xs font-bold mt-1">1</span>
-          <p>เป้าหมายคือรวมแต้มให้ใกล้เคียง <b>21</b> มากที่สุดแต่ห้ามเกิน</p>
+          <p>The goal is to get a total score <b>equal to or as close to 21</b> as possible without going over.</p>
         </div>
         <div className="flex gap-3 items-start">
           <span className="bg-yellow-500 text-black rounded-full px-2 py-0.5 text-xs font-bold mt-1">2</span>
-          <p>ไพ่ <b>J, Q, K</b> มีค่า 10 แต้ม และไพ่ตัวเลขมีค่าตามหน้าไพ่</p>
+          <p>Cards <b>J, Q, K</b> are worth 10 points. Numeric cards are worth their face value.</p>
         </div>
         <div className="flex gap-3 items-start">
           <span className="bg-yellow-500 text-black rounded-full px-2 py-0.5 text-xs font-bold mt-1">3</span>
-          <p>ไพ่ <b>A</b> จะมีค่า <b>1</b> เสมอเมื่อคู่กับเลข 2-9</p>
+          <p>An <b>Ace (A)</b> is worth <b>1</b> point when paired with numbers 2-9.</p>
         </div>
         <div className="flex gap-3 items-start">
           <span className="bg-yellow-500 text-black rounded-full px-2 py-0.5 text-xs font-bold mt-1">4</span>
-          <p>หากได้ <b>A คู่กับ (10, J, Q, K)</b> ใน 2 ใบแรก จะชนะทันที! (Blackjack)</p>
+          <p>Get an <b>Ace + (10, J, Q, K)</b> in your first 2 cards to win instantly! (Blackjack)</p>
+        </div>
+        <div className="flex gap-3 items-start">
+          <span className="bg-yellow-500 text-black rounded-full px-2 py-0.5 text-xs font-bold mt-1">5</span>
+          <p><b>HIT</b> to draw another card. <b>STAND</b> to keep your current total.</p>
         </div>
       </div>
       <button 
-        onClick={() => setGameState("start")} 
+        onClick={() => setGameState("Start")} 
         className="mt-8 w-full bg-yellow-500 text-black font-black py-3 rounded-2xl shadow-[0_4px_0_rgb(161,98,7)] hover:shadow-none hover:translate-y-1 transition-all"
       >
         I'M READY
