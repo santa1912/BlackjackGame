@@ -114,7 +114,16 @@ export default function App() {
   // --- 🏠 หน้าจอ Start ---
   const StartScreen = () => (
     <div className="bg-green-800 p-10 rounded-[3rem] shadow-2xl text-center w-full max-w-md border-8 border-yellow-600/50">
-      <div className="text-7xl mb-6 drop-shadow-lg">🃏</div>
+      
+      {/* ส่วนที่แก้ไข: เปลี่ยนจาก Emoji เป็นรูปภาพ PNG */}
+      <div className="flex justify-center mb-6">
+        <img 
+          src="/logo.png" 
+          alt="Blackjack Logo" 
+          className="w-32 h-32 object-contain drop-shadow-[0_10px_10px_rgba(0,0,0,0.5)]" 
+        />
+      </div>
+
       <h1 className="text-5xl font-black text-white mb-2 tracking-tighter drop-shadow-md">
         BLACKJACK
       </h1>
