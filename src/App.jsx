@@ -115,7 +115,7 @@ export default function App() {
   const StartScreen = () => (
     <div className="bg-green-800 p-10 rounded-[3rem] shadow-2xl text-center w-full max-w-md border-8 border-yellow-600/50">
       
-      {/* ส่วนที่แก้ไข: เปลี่ยนจาก Emoji เป็นรูปภาพ PNG */}
+      
       <div className="flex justify-center mb-6">
         <img 
           src="/logo.png" 
@@ -181,7 +181,7 @@ export default function App() {
     </div>
   );
 
-  // --- 🎮 หน้าจอ เล่นเกม (UI เดิมที่คุณมี) ---
+  // --- 🎮 หน้าจอ เล่นเกม ---
   const GameScreen = () => (
     <div className="bg-green-800 p-8 rounded-[2rem] shadow-2xl text-center w-full max-w-md border-4 border-yellow-600/50 relative">
       <button 
