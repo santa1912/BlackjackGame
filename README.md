@@ -16,4 +16,4 @@
 * [Tailwind CSS v4](https://tailwindcss.com/) - Styling
 * [Vite](https://vitejs.dev/) - Build Tool
 
-By Patthamaporn Sertluecha
+By Hansaratn Narkwarin
